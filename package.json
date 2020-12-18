@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwind build ./styles/tailwind.css  -o ./public/tailwind.css",
+    "build": "set NODE_ENV=production&& tailwind build ./styles/tailwind.css -o ./public/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eloyms262/myResume.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eloyms262/myResume.github.io/issues"
+  },
+  "homepage": "https://github.com/eloyms262/myResume.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
