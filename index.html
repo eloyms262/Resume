@@ -13,39 +13,60 @@
 <body class="relative">
         
 <!--Navigation Panel-->
-    <nav id="container" class="px-20 justify-between h-14 sticky w-full text-white bg-navBG flex items-center">
-        <div>
+    <nav id="container" class="z-10 px-20 justify-between h-14 sticky w-full text-white bg-navBG flex items-center">
+        <div class="index.html">
             Nar
         </div>
         <div class="flex items-center h-full text-md">
             <ul class="flex items-center h-full  space-x-10">
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contacts</li>
+                <li>
+                    <button href="#hero">About Me</button>
+                </li>
+                <li>
+                    <a href="#stacks">Projects</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
                 <li class="bg-navResume self-stretch flex items-center rounded-b-xl shadow-lg">
-                    <div id="resume" class=" h-16 -bottom-1  bg-navResume  self-stretch flex items-center p-4 rounded-b-xl">
+                    <button id="resume" class=" h-16 -bottom-1  bg-navResume  self-stretch flex items-center p-4 rounded-b-xl">
                         <svg class="h-8 w-8 mr-3"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                           </svg> Resume
-                    </div>
+                    </button>
                 </li>
             </ul>
         </div>
     </nav>
 
 <!--Hero Content-->
-<div id="hero" class="z-10 relative justify-between flex w-full min-h-screen bg-gradient-to-r from-gresume to-gresume2">
+<div id="hero" class="relative">
+    <span id="bgText" class="absolute leading-3 select-none top-24">
+        PORTFOLIO
+    </span>
+<div class="w-full min-h-screen bg-gradient-to-r from-gresume to-gresume2">
     <!--Left Content-->
-    <h1 id="bgText" class="select-none top-0">PORTFOLIO</h1>
-    <div class="flex items-start absolute justify-center mx-auto my-10">
-        <h1 id="frontText" class="text-9xl text-white items-center justify-center">
-            ANGELO <br>
-            MUNAR
+
+    <div class="flex justify-center absolute w-full my-24 ">
+    <div class="mx-16">
+        <h1 id="frontText" class="-mx-2 text-9xl text-white">
+        ANGELO <br>
+        MUNAR
         </h1>
-<img src="src/imgs/me.jpg" alt="me" class="w-96 h-96 rounded-3xl">
+        <div class="bg-degLine h-3 w-64 rounded-xl shadow-2xl"></div>
+        <h1 class="text-white text-3xl">
+            Computer Science Student,<br>
+            Aspiring Web Developer
+        </h1>
     </div>
-    
     <!--Right Content-->
+    <img src="src/imgs/me.jpg" alt="me" class="w-96 h-96 rounded-3xl">
+    </div>
+</div>
+</div>
+
+    
+
 <div class="">
     <!--
 font-family: 'Josefin Sans', sans-serif;
