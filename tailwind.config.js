@@ -4,8 +4,30 @@ purge: ["./*.html"],
   theme: {
     extend: {
       colors:{
-        resume:"#182848",
-        resume2:"4B6CB7" 
+        gresume:"#182848",
+        gresume2:"#4B6CB7",
+        navBG:"#252B3A",
+        navResume:"#FF6C6C",
+        degLine:"#FE2020",
+      },
+      fontFamily: {
+        sans: [
+          'Montserrat',
+          'ui-sans-serif',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+          '"Noto Sans"',
+          'sans-serif',
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
+        ],
       }
     },
   },
