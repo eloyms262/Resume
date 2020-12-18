@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+#resume{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;    
+}
+#bgText{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 250px;
+    outline: #FF7070;
+    stroke-width: 5px;
+    opacity: 0.39;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke:#FF7070;
+    -webkit-text-stroke-width: 4px;
+    position: absolute;
+}
+#frontText{
+    font-family: 'Josefin Sans', sans-serif;
+
+}

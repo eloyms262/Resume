@@ -6,38 +6,53 @@
     <link rel="stylesheet" href="/public/tailwind.css">
     <link rel="stylesheet" href="/styles/tailwind.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300,400,500;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     
     <title>Angelo Munar</title>
 </head>
 <body class="relative">
         
 <!--Navigation Panel-->
-    <nav id="container" class="px-20 justify-between h-14 absolute w-full text-white bg-navBG flex items-center">
+    <nav id="container" class="px-20 justify-between h-14 sticky w-full text-white bg-navBG flex items-center">
         <div>
             Nar
         </div>
-        <div class="flex items-center h-full">
-            <ul class="flex items-center h-full  space-x-4">
+        <div class="flex items-center h-full text-md">
+            <ul class="flex items-center h-full  space-x-10">
                 <li>About Me</li>
                 <li>Projects</li>
                 <li>Contacts</li>
-                <li class="bg-navResume self-stretch flex items-center rounded-b-xl">
-                    <div class=" h-16 -bottom-1  bg-navResume  self-stretch flex items-center p-4 rounded-b-xl">
-                        Resume
+                <li class="bg-navResume self-stretch flex items-center rounded-b-xl shadow-lg">
+                    <div id="resume" class=" h-16 -bottom-1  bg-navResume  self-stretch flex items-center p-4 rounded-b-xl">
+                        <svg class="h-8 w-8 mr-3"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                          </svg> Resume
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
 
-
 <!--Hero Content-->
-<div id="hero" class="w-full min-h-screen bg-gradient-to-r from-gresume to-gresume2">
-    <div class="">
-
+<div id="hero" class="z-10 relative justify-between flex w-full min-h-screen bg-gradient-to-r from-gresume to-gresume2">
+    <!--Left Content-->
+    <h1 id="bgText" class="select-none top-0">PORTFOLIO</h1>
+    <div class="flex items-start absolute justify-center mx-auto my-10">
+        <h1 id="frontText" class="text-9xl text-white items-center justify-center">
+            ANGELO <br>
+            MUNAR
+        </h1>
+<img src="src/imgs/me.jpg" alt="me" class="w-96 h-96 rounded-3xl">
     </div>
-
+    
+    <!--Right Content-->
+<div class="">
+    <!--
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+-->
+    
+</div>
 </div>
     
 </body>
